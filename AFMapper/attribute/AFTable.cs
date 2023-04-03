@@ -5,7 +5,7 @@ namespace AFMapper;
 /// Attribute that describes a table in the database
 /// </summary>
 [AttributeUsage(AttributeTargets.Class)]
-public sealed class CRTable : Attribute
+public sealed class AFTable : Attribute
 {
     /// <summary>
     /// Name of the table in the database.

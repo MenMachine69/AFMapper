@@ -5,13 +5,13 @@ namespace AFMapper;
 /// Attribute that describes a field in the database
 /// </summary>
 [AttributeUsage(AttributeTargets.Property)]
-public sealed class CRField : Attribute
+public sealed class AFField : Attribute
 {
     /// <summary>
     /// Constructor with SourceField parameter for simpler FieldDefinitions in view classes
     /// </summary>
     /// <param name="sourceField"></param>
-    public CRField(string sourceField)
+    public AFField(string sourceField)
     {
         SourceField = sourceField;
     }
@@ -19,7 +19,7 @@ public sealed class CRField : Attribute
     /// <summary>
     /// Constructor
     /// </summary>
-    public CRField() { }
+    public AFField() { }
 
     /// <summary>
     /// Type to which the field refers.

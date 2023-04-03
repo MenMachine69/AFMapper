@@ -5,7 +5,7 @@ namespace AFMapper;
 /// Attribute that describes a view in the database.
 /// </summary>
 [AttributeUsage(AttributeTargets.Class)]
-public sealed class CRView : Attribute
+public sealed class AFView : Attribute
 {
     /// <summary>
     /// Name of the view in the database.

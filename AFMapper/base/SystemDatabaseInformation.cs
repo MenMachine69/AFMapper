@@ -4,7 +4,7 @@ namespace AFMapper;
 /// <summary>
 /// Model for general informations about the database
 /// </summary>
-[CRTable(TableName = "SYS_INFO", TableId = 1, Version = 1)]
+[AFTable(TableName = "SYS_INFO", TableId = 1, Version = 1)]
 public class SystemDatabaseInformation : DefaultTable
 {
     private int _SYSINFO_DBVERSION;
@@ -15,7 +15,7 @@ public class SystemDatabaseInformation : DefaultTable
     /// <summary>
     /// database/table version
     /// </summary>
-    [CRField()]
+    [AFField()]
     public int SYSINFO_DBVERSION
     {
         get => _SYSINFO_DBVERSION;
@@ -25,7 +25,7 @@ public class SystemDatabaseInformation : DefaultTable
     /// <summary>
     /// entity identifier - unque id of the table/view
     /// </summary>
-    [CRField(Unique = true, Indexed = true)]
+    [AFField(Unique = true, Indexed = true)]
     public int SYSINFO_IDENTIFIER
     {
         get => _SYSINFO_IDENTIFIER;
@@ -35,7 +35,7 @@ public class SystemDatabaseInformation : DefaultTable
     /// <summary>
     /// Informations about the maintenance state of the database
     /// </summary>
-    [CRField()]
+    [AFField()]
     public bool SYSINFO_MAINTENANCE
     {
         get => _SYSINFO_MAINTENANCE;
@@ -45,7 +45,7 @@ public class SystemDatabaseInformation : DefaultTable
     /// <summary>
     /// Table name - if this field is empty, the object contains informations about the database itself. 
     /// </summary>
-    [CRField(MaxLength = 200)]
+    [AFField(MaxLength = 200)]
     public string SYSINFO_TABLENAME
     {
         get => _SYSINFO_TABLENAME;

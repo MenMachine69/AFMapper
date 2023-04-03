@@ -33,8 +33,8 @@ public sealed class TypeDescription
     {
         Type = type;
 
-        Table = type.GetCustomAttribute<CRTable>();
-        View = type.GetCustomAttribute<CRView>();
+        Table = type.GetCustomAttribute<AFTable>();
+        View = type.GetCustomAttribute<AFView>();
 
         Accessor = TypeAccessor.Create(type);
 
@@ -125,12 +125,12 @@ public sealed class TypeDescription
     /// <summary>
     /// Table attribute of the Type if Type represents a Table
     /// </summary>
-    public CRTable? Table { get; private set; }
+    public AFTable? Table { get; private set; }
 
     /// <summary>
     /// Table attribute of the Type if Type represents a Table
     /// </summary>
-    public CRView? View { get; private set; }
+    public AFView? View { get; private set; }
 
     /// <summary>
     /// True if type is a table
@@ -216,7 +216,7 @@ public class PropertyDescription
     {
         PropertyDescription ret = new(propertyInfo)
         {
-            Field = propertyInfo.GetCustomAttribute<CRField>(true),
+            Field = propertyInfo.GetCustomAttribute<AFField>(true),
         };
 
         return ret;
@@ -239,6 +239,6 @@ public class PropertyDescription
     /// <summary>
     /// Rules for this property
     /// </summary>
-    public CRField? Field { get; init; }
+    public AFField? Field { get; init; }
 }
 

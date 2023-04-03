@@ -58,7 +58,7 @@ public abstract class DefaultTable : BaseTable
     /// <summary>
     /// Primary key of the object.
     /// </summary>
-    [CRField(SystemFieldFlag = eSystemFieldFlag.PrimaryKey)]
+    [AFField(SystemFieldFlag = eSystemFieldFlag.PrimaryKey)]
     public Guid SYS_ID
     {
         get => _SYS_ID;
@@ -68,7 +68,7 @@ public abstract class DefaultTable : BaseTable
     /// <summary>
     /// DateTime created
     /// </summary>
-    [CRField(SystemFieldFlag = eSystemFieldFlag.TimestampCreated)]
+    [AFField(SystemFieldFlag = eSystemFieldFlag.TimestampCreated)]
     public DateTime SYS_CREATED
     {
         get => _SYS_CREATED;
@@ -78,7 +78,7 @@ public abstract class DefaultTable : BaseTable
     /// <summary>
     /// DateTime last changed
     /// </summary>
-    [CRField(SystemFieldFlag = eSystemFieldFlag.TimestampChanged)]
+    [AFField(SystemFieldFlag = eSystemFieldFlag.TimestampChanged)]
     public DateTime SYS_CHANGED
     {
         get => _SYS_CHANGED;
@@ -91,7 +91,7 @@ public abstract class DefaultTable : BaseTable
     /// ATTENTION! CRBindung is defined with readonly. Do not edit this value in masks directly.
     /// Instead of direct edition set this value from a command or something else.
     /// </summary>
-    [CRField(SystemFieldFlag = eSystemFieldFlag.ArchiveFlag)]
+    [AFField(SystemFieldFlag = eSystemFieldFlag.ArchiveFlag)]
     public bool SYS_ARCHIVED
     {
         get => _SYS_ARCHIVED;

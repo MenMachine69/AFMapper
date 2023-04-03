@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="interface\" />
     <Folder Include="base\" />
-    <Folder Include="attribute\" />
   </ItemGroup>
 
   <ItemGroup>

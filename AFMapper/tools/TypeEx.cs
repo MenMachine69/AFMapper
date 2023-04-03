@@ -210,7 +210,7 @@ public static class TypeEx
     /// <param name="type">Type of table</param>
     /// <param name="table">CRTable attribute</param>
     /// <exception cref="Exception">Throws a Exception if TableId or TableName is not unique</exception>
-    internal static void checkTable(Type type, CRTable table)
+    internal static void checkTable(Type type, AFTable table)
     {
         var found = _typedescCache.Values.FirstOrDefault(t =>
             t.Table != null && t.Table.TableId == table.TableId && t.Type != type);
@@ -232,7 +232,7 @@ public static class TypeEx
     /// <param name="type">Type of view</param>
     /// <param name="view">CRView attribute</param>
     /// <exception cref="Exception">Throws a Exception if ViewId or ViewName is not unique</exception>
-    internal static void checkView(Type type, CRView view)
+    internal static void checkView(Type type, AFView view)
     {
         var found = _typedescCache.Values.FirstOrDefault(t =>
             t.View != null && t.View.ViewId == view.ViewId && t.Type != type);
