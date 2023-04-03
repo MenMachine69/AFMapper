@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DBTRANS_NOCOMMANDDEFINED" xml:space="preserve">
+    <value>No command string defined in translator for command {0}.</value>
+  </data>
+  <data name="ERRORWHILECREATINGDATABASE" xml:space="preserve">
+    <value>Fehler beim Anlegen der Datenbank {0}.</value>
+  </data>
+  <data name="ERROR_CANTCOMMITNOACTIVETRANSACTION" xml:space="preserve">
+    <value>Transaktion kann nicht abgeschlossen werden. Es ist keine Transaktion aktiv.</value>
+  </data>
+  <data name="ERROR_CANTROLLBACKNOACTIVETRANSACTION" xml:space="preserve">
+    <value>Transaktion kann nicht abgeschlossen werden. Es ist keine Transaktion aktiv.</value>
+  </data>
+  <data name="ERROR_CANTSTARTTRANSACTIONWHILETRANSACTIONEXIST" xml:space="preserve">
+    <value>Transaktion kann nicht gestartet werden. Es ist bereits eine Transaktion aktiv.</value>
+  </data>
+  <data name="ERROR_COMMANDMETHODMUSTBESTATIC" xml:space="preserve">
+    <value>Methode {0} muss als public static definiert sein, um als COMMAND verwendet werden zu können.</value>
+  </data>
+  <data name="ERROR_COMMITTRANSACTION" xml:space="preserve">
+    <value>An error occured while commit a transaction.</value>
+  </data>
+  <data name="ERROR_COMMITTRANSACTION1" xml:space="preserve">
+    <value>Error while commit transaction. See Innerexception for more informations.</value>
+  </data>
+  <data name="ERROR_DBCONSTRUCTORCANTUSEDWITHOUTPARAMETER" xml:space="preserve">
+    <value>Constructor kann nicht ohne Angabe der Datenbank verwendet werden.</value>
+  </data>
+  <data name="ERROR_DBTRANSACTIONEXISTS" xml:space="preserve">
+    <value>Transaction allways exist.</value>
+  </data>
+  <data name="ERROR_DBTRANSACTIONEXISTS1" xml:space="preserve">
+    <value>There is already an open transaction. A new transaction cannot be created.</value>
+  </data>
+  <data name="ERROR_DELETECANCELED" xml:space="preserve">
+    <value>Das Löschen wurde abgebrochen.</value>
+  </data>
+  <data name="ERROR_DIRECTORYINFO_NOPHYSICALDRIVE" xml:space="preserve">
+    <value>Das Verzeichnis '{0}' befindet sich nicht auf einem physischen Laufwerk sondern repäsentiert ein UNC-Verzeichnis, für das keine Seriennummer verfügbar ist.</value>
+  </data>
+  <data name="ERROR_ISUNIQUENOTAVAILABLE" xml:space="preserve">
+    <value>Der Typ {0} enthält kein Systemfeld für PrimaryKey. IsUnique wird deshalb nicht unterstützt.</value>
+  </data>
+  <data name="ERROR_MISSINGBINDINGGETTER" xml:space="preserve">
+    <value>Der Typ {0} hat keine Eigenschaft mit dem Namen {1}, an die gebunden werden kann. (GET fehlt)</value>
+  </data>
+  <data name="ERROR_MISSINGBINDINGSETTER" xml:space="preserve">
+    <value>Der Typ {0} hat keine Eigenschaft mit dem Namen {1}, an die gebunden werden kann. (SET fehlt)</value>
+  </data>
+  <data name="ERROR_MISSINGFIELDNAME" xml:space="preserve">
+    <value>Feldname für Summierung nicht angegeben.</value>
+  </data>
+  <data name="ERROR_MISSINGKEYFIELD" xml:space="preserve">
+    <value>Der Typ {0} verfügt über kein Feld, dass mit der Eigenschaft eSystemFieldFlag.key versehen ist.</value>
+  </data>
+  <data name="ERROR_MISSINGPRIMARYKEY" xml:space="preserve">
+    <value>Der Typ/die Klasse {0} enthält kein Feld, das als PrimaryKey gekennzeichnet ist (Attribut Field).</value>
+  </data>
+  <data name="ERROR_MISSINGTABLEATTRIBUTE" xml:space="preserve">
+    <value>Der Typ {0} ist weder mit dem Attribut TABLE noch mit dem Attribut VIEW versehen.</value>
+  </data>
+  <data name="ERROR_MISSINGTIMESTAMPCHANGED" xml:space="preserve">
+    <value>Der Typ/die Klasse {0} enthält kein Feld, das als TimestampChanged gekennzeichnet ist (Attribut Field).</value>
+  </data>
+  <data name="ERROR_MISSINGTIMESTAMPCREATED" xml:space="preserve">
+    <value>Der Typ/die Klasse {0} enthält kein Feld, das als TimestampCreated gekennzeichnet ist (Attribut Field).</value>
+  </data>
+  <data name="ERROR_MISSINGTYPEDESCRIPTION" xml:space="preserve">
+    <value>Es wurde keine Typbeschreibung (TypeDescription) übergeben.</value>
+  </data>
+  <data name="ERROR_MUSTBEFIREBIRDCONFIGURATION" xml:space="preserve">
+    <value>Konfiguration muss vom Typ cr2.data.FirebirdConfiguration sein.</value>
+  </data>
+  <data name="ERROR_MUSTBEFIREBIRDTRANSLATOR" xml:space="preserve">
+    <value>Translator muss vom Typ cr2.data.FirebirdTranslator sein.</value>
+  </data>
+  <data name="ERROR_MUSTBEPOSTGRECONFIGURATION" xml:space="preserve">
+    <value>Konfiguration muss vom Typ cr2.data.PostgreConfiguration sein.</value>
+  </data>
+  <data name="ERROR_MUSTBEPOSTGRETRANSLATOR" xml:space="preserve">
+    <value>Translator muss vom Typ cr2.data.PostgreTranslator sein.</value>
+  </data>
+  <data name="ERROR_NOACTIVECONNECTION" xml:space="preserve">
+    <value>There is no active connection.</value>
+  </data>
+  <data name="ERROR_NOACTIVECONNECTION1" xml:space="preserve">
+    <value>There is no open connection to which a transaction can be created.</value>
+  </data>
+  <data name="ERROR_NOACTIVETRANSACTION" xml:space="preserve">
+    <value>There is no active transaction.</value>
+  </data>
+  <data name="ERROR_NOACTIVETRANSACTION1" xml:space="preserve">
+    <value>There is no open transaction.</value>
+  </data>
+  <data name="ERROR_NOFIELDINTYPE" xml:space="preserve">
+    <value>Der Typ {0} verfügt nicht über ein Feld mit dem Namen {1}.</value>
+  </data>
+  <data name="ERROR_NOSYSTEMFIELDSALLOWED" xml:space="preserve">
+    <value>Systemfelder sind nur erlaubt, wenn der Typ mit dem Attribut Table oder dem Attribut View versehen wurde.</value>
+  </data>
+  <data name="ERROR_NOTIMPLEMENTEDINBASE" xml:space="preserve">
+    <value>This method must be implemented in the concrete database connection class.</value>
+  </data>
+  <data name="ERROR_OBJECTNOTSERIALIZABLE" xml:space="preserve">
+    <value>Der Typ {0} ist nicht serialisierbar. Das Objekt kann nicht serialisiert werden.</value>
+  </data>
+  <data name="ERROR_ROLLBACKTRANSACTION" xml:space="preserve">
+    <value>Error while rollback transaction. See Innerexception for more informations.</value>
+  </data>
+  <data name="ERROR_SAVECANCELED" xml:space="preserve">
+    <value>Das Speichern wurde abgebrochen.</value>
+  </data>
+  <data name="ERROR_SCRIPTINGCANTCREATEASSEMBLY" xml:space="preserve">
+    <value>Assembly konnte nicht erzeugt werden.</value>
+  </data>
+  <data name="ERROR_SCRIPTINGCANTCREATEOBJECT" xml:space="preserve">
+    <value>Objekt der Klasse {0} konnte nicht erzeugt werden.</value>
+  </data>
+  <data name="ERROR_SCRIPTINGERRORWHILECOMPILEASSEMBLY" xml:space="preserve">
+    <value>{0} Fehler beim Compilieren der Assembly.</value>
+  </data>
+  <data name="ERROR_SCRIPTINGERRORWHILECREATEASSEMBLY" xml:space="preserve">
+    <value>Fehler beim Erzeugen der Assembly.
+{0}</value>
+  </data>
+  <data name="ERROR_SCRIPTINGERRORWHILECREATEOBJECT" xml:space="preserve">
+    <value>Fehler beim Erzeugen des Objektes.
+{0}</value>
+  </data>
+  <data name="ERROR_STRINGMASKERROR" xml:space="preserve">
+    <value>Fehlerhafte Maske: {0}</value>
+  </data>
+  <data name="ERROR_SYSTEMFIELDDUPLICATE" xml:space="preserve">
+    <value>Für das Systemfeld {0} existiert bereits ein Feld für den Typen ({1}). Das Feld {2} kann daher nicht als Systemfeld für {0} definiert werden.</value>
+  </data>
+  <data name="ERROR_SYSTEMFIELDNOTALLOWED" xml:space="preserve">
+    <value>Das Systemfeld {0} kann nur ein einer Entitität vom Typ Table oder View verwendet werden. (die Klasse {1} muss mit dem Attribut Table oder View versehen werden)</value>
+  </data>
+  <data name="ERROR_SYSTEMFIELDNOTMARKEDASPERSISTANT" xml:space="preserve">
+    <value>Das Systemfeld {0} muss als Persistant gekennzeichnet werden.</value>
+  </data>
+  <data name="ERROR_TABLEIDTOSMALL" xml:space="preserve">
+    <value>Die TableID der Tabelle {0} muss größer 0 sein</value>
+  </data>
+  <data name="ERROR_TYPEDOESNTCONTAINFIELD" xml:space="preserve">
+    <value>Der Typ {0} enthält kein Feld mit dem Namen {1}. Regel kann nicht hinzugefügt werden.</value>
+  </data>
+  <data name="ERROR_VALUECANTBENULL" xml:space="preserve">
+    <value>Der Wert darf nicht NULL sein.</value>
+  </data>
+  <data name="ERROR_VALUEMUSTBEBIGGERTHENZERO" xml:space="preserve">
+    <value>Der Wert muss &gt;= 0 sein.</value>
+  </data>
+  <data name="ERROR_VIEWCANTBETABLE" xml:space="preserve">
+    <value>Der Typ {0} kann nicht gleichzeitig als VIEW und als TABLE gekennzeichnet werden.</value>
+  </data>
+  <data name="ERROR_VIEWDOENSTCONTAINQUERY" xml:space="preserve">
+    <value>Im Typ {0} der mit dem Attribut VIEW versehen wurde fehlt die Definition des Querys. Der Query des Views muss angegeben werden (wentweder über 'Query' im Attribut View oder eine statische Methode 'RequestViewQuery' in der Klasse des Typs.</value>
+  </data>
+  <data name="ERROR_VIEWDOESNTCONTAINFIELDS" xml:space="preserve">
+    <value>Im Query des mit dem VIEW-Attribut versehenen Typs {0} fehlt der Platzhalter #FIELDS#, der die Felder repräsentiert, die abgefragt werden sollen.</value>
+  </data>
+  <data name="ERROR_WHILECONVERTIMAGEFROMBYTEARRAY" xml:space="preserve">
+    <value>Fehler beim Konvertieren des Bildes aus dem Datenstrom der Datenbank.</value>
+  </data>
+  <data name="ERROR_WHILECONVERTIMAGETOBYTEARRAY" xml:space="preserve">
+    <value>Fehler beim Konvertieren des Bildes in einen Datenstrom.</value>
+  </data>
+  <data name="ERROR_WHILETRANSLATINGTODB" xml:space="preserve">
+    <value>Fehler beim Konvertieren eines Wertes in das Datenbankformat. (Quelltyp: {0}, Zieltyp: {1})</value>
+  </data>
+  <data name="ERROR_WHILETRANSLATIONFROMDB" xml:space="preserve">
+    <value>Fehler beim Konvertieren eines Wertes aus dem Datenbankformat. (Quelltyp: {0}, Zieltyp: {1})</value>
+  </data>
+  <data name="ERR_GETREADER_NOT_AVAILABLE" xml:space="preserve">
+    <value>GetReader is not available.</value>
+  </data>
+  <data name="ERR_TYPE_DOES_NOT_CONTAIN_KEY" xml:space="preserve">
+    <value>The type does not contain a primary key field.</value>
+  </data>
+  <data name="some" xml:space="preserve">
+    <value />
+  </data>
+</root>
